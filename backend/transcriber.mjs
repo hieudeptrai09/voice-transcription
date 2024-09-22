@@ -2,7 +2,7 @@ import { AssemblyAI } from "assemblyai";
 
 export const transcriber = async (filename) => {
   const client = new AssemblyAI({
-    apiKey: "db870aac0c3941bc860cb392ac858691",
+    apiKey: "", //add your key
   });
 
   const params = {
